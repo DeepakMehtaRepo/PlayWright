@@ -1,0 +1,32 @@
+===================================================================
+Playwright Overview / Benefits : 
+Playwright have excellent inbuilt feature called Traces which can take automatic screenshots, test video recording, Flaky test retry and logging mechanism.
+it provide inspector tool which help us to monitor and debug every step of execution, see click points and verify page locators on fly.
+It has inbuilt API testing libraries to fire the network calls on fly within web application. (Test Edge case scenario with the mix of web and API testing.)
+It provide browser context featute which help to save and transfer the browser state to any other new browser.
+It provide codegen tool which generate test code by recording our actions. we can save them in any language.
+It has auto-wait capability.
+works with may language - javascript, Typescript, java, python.
+works on major browser which users chromium engine(Chrome, Edge), firefox, safari(Web Kit) and opera.
+=================================================================== 
+node --version : to get the node version
+which node : to get the installed node path
+echo $PATH : print the path of the environment variable. which is seperated by colon (:)
+echo $SHELL : Check your current shell
+ls -a $HOME | grep .zshrc : to determine which profile file is in use for Zsh
+=================================================================== 
+vi ~/.zshrc : to edit the environment file
+source ~/.zshrc : to apply the changes made in env file 
+=================================================================== 
+npm init Playwright : it will create an skeleton / empty project directory. It will install all the dependency using this command.
+    playwright.config.js : runner file
+    package.json : default dependency package holder
+    tests: 
+    node_modules: all jar 
+=================================================================== 
+fixture are like global variable.
+context     
+=================================================================== 
+
+chropath : chrome plugin for locators
+
